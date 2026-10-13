@@ -403,7 +403,6 @@ decodeYoloV11Tensor(
         obj.top = y1;
         obj.width = width;
         obj.height = height;
-        obj.rotation_angle = 0.0f;
 
         objectList.push_back(obj);
     }
