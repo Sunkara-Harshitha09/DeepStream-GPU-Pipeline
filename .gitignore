@@ -1,0 +1,54 @@
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Generated TensorRT engines and compiled binaries
+*.engine
+*.plan
+*.so
+*.dll
+*.o
+*.a
+
+# Logs
+*.log
+logs/
+
+# Generated pipeline outputs
+06_outputs/**/*.mp4
+06_outputs/**/*.avi
+06_outputs/**/*.mkv
+06_outputs/**/*.jpg
+06_outputs/**/*.png
+
+# Generated benchmark artifacts
+06_outputs/task_c_benchmark/charts/*
+06_outputs/task_c_benchmark/csv/*
+06_outputs/task_c_benchmark/reports/*
+06_outputs/task_c_benchmark/logs/*
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

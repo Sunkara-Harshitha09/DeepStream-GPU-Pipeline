@@ -1,0 +1,28 @@
+
+BaseConfig:
+  minDetectorConfidence: 0.25
+  minTrackerConfidence: 0.2
+  minIouDiff4NewTarget: 0.7
+  minTrackerAge: 3
+  probationAge: 3
+  maxShadowTrackingAge: 30
+  earlyTerminationAge: 1
+
+TargetManagement:
+  enableBboxUnClipping: 1
+  preserveStreamUpdateOrder: 0
+  maxTargetsPerStream: 150
+  minIou4NewTarget: 0.2
+
+DataAssociator:
+  dataAssociatorType: 0
+  associationMatcherType: 1
+  checkClassMatch: 1
+  minMatchingScore4Overall: 0.0
+  minMatchingScore4SizeSimilarity: 0.5
+  minMatchingScore4Iou: 0.1
+  minMatchingScore4VisualSimilarity: 0.7
+  minMatchingScore4TentativeIou: 0.3
+
+TrajectoryManagement:
+  useUniqueID: 1

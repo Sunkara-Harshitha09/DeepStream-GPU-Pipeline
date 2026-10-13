@@ -1,0 +1,9 @@
+
+# Optional Python packages for project validation and reporting.
+# DeepStream, CUDA and NVIDIA drivers must be installed separately
+# in a compatible target GPU environment.
+
+numpy>=1.26,<3.0
+onnx>=1.16,<2.0
+pandas>=2.2,<4.0
+matplotlib>=3.8,<4.0
