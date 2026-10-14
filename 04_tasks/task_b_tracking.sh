@@ -43,7 +43,7 @@ echo "Log:    $LOG"
 echo
 
 set +e
-deepstream-app -c "$CONFIG" 2>&1 | tee "$LOG"
+deepstream-app -t 1 -c "$CONFIG" 2>&1 | tee "$LOG"
 PIPE_STATUS=("${PIPESTATUS[@]}")
 set -e
 

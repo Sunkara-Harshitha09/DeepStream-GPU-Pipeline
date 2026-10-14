@@ -55,3 +55,38 @@ desktop.ini
 
 # Generated task outputs and reports
 06_outputs/
+
+# DeepStream generated artifacts
+*.engine
+*.engine.*
+*.so
+*.o
+*.a
+*.pyc
+__pycache__/
+
+# Generated videos in output folders
+06_outputs/**/*.mp4
+06_outputs/**/*.avi
+06_outputs/**/*.mkv
+06_outputs/**/*.mov
+
+# Generated logs and runtime outputs
+*.log
+06_outputs/logs/
+06_outputs/summary/
+*.tmp
+*.bak
+*.swp
+
+# Python environments and caches
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 
 INPUT="$PROJECT_ROOT/01_input/PNNL_Parking_LOT(1).avi"
-CONFIG="$PROJECT_ROOT/03_pipeline/deepstream_detection_config.txt"
+CONFIG="$PROJECT_ROOT/03_pipeline/deepstream_benchmark_config.txt"
 
 OUT="$PROJECT_ROOT/06_outputs/task_c_benchmark"
 CSV_DIR="$OUT/csv"
